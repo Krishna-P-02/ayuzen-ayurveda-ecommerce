@@ -36,7 +36,7 @@ Ayuzen is a handcrafted e-commerce platform focused on Ayurvedic wellness. Built
 ---
 
 AUTHOR
-Krishna. P
-B.E Computer Science and Engineering
-Sir Issac Newton College of Engineering and Technology
+Krishna. P, 
+B.E Computer Science and Engineering, 
+Sir Issac Newton College of Engineering and Technology, 
 Academic Year 2021–2025
