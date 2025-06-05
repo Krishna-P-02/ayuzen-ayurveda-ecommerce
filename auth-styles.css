@@ -1,0 +1,149 @@
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #98b4b7 0%, #eebdb6 100%);
+    padding: 20px;
+}
+
+.login-wrapper {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+}
+
+.login-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.login-logo .leaf-icon {
+    font-size: 40px;
+    color: #72a8a8;
+}
+
+.login-logo span {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+}
+
+.auth-form h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.auth-form p {
+    color: #666;
+    margin-bottom: 32px;
+    font-size: 16px;
+}
+
+.form-group {
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #98b4b7;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #72a8a8;
+    box-shadow: 0 0 0 3px rgba(114, 168, 168, 0.1);
+}
+
+.auth-btn {
+    width: 100%;
+    background: #72a8a8;
+    color: white;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 24px;
+}
+
+.auth-btn:hover {
+    background: #98b4b7;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(114, 168, 168, 0.3);
+}
+
+.auth-switch {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.auth-switch a {
+    color: #72a8a8;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.auth-switch a:hover {
+    color: #98b4b7;
+}
+@media (max-width: 640px) {
+    .login-wrapper {
+        padding: 40px 30px;
+        margin: 10px;
+    }
+    
+    .login-logo span {
+        font-size: 24px;
+    }
+    
+    .auth-form h2 {
+        font-size: 24px;
+    }
+    
+    .form-group input,
+    .auth-btn {
+        padding: 14px;
+    }
+}
+.auth-form {
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
